@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "name": "Diamond Sword",
+    "price": 150,
+    "image": "images/sword.png",
+    "desc": "Strong diamond sword for adventures!"
+  },
+  {
+    "id": 2,
+    "name": "Golden Apple",
+    "price": 50,
+    "image": "images/apple.png",
+    "desc": "Special item for extra health."
+  }
+]

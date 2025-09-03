@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>BreezeMC- Webstore</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Orbitron:wght@600&family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <img src="images/logo.png" alt="Logo" class="logo-animate">
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="shop.html">Shop</a>
+    </nav>
+  </header>
+  <main>
+    <!-- Animated Hero Section -->
+    <section class="hero">
+      <svg class="hero-bg" viewBox="0 0 1440 320" fill="none">
+        <path fill="#5fd6fd" fill-opacity="1" d="M0,256L80,240C160,224,320,192,480,186.7C640,181,800,203,960,192C1120,181,1280,139,1360,117.3L1440,96L1440,0L1360,0C1280,0,1120,0,960,0C800,0,640,0,480,0C320,0,160,0,80,0L0,0Z"></path>
+      </svg>
+      <h1 class="animated-title">Welcome to BreezeMC- Webstore!</h1>
+      <p class="subtitle">Premium Minecraft items at the best prices.</p>
+      <a class="premium-btn pulse" href="shop.html"><i class="fa-solid fa-bolt"></i> Shop Now</a>
+    </section>
+
+    <!-- Interactive Banner Example -->
+    <div class="interactive-banner">
+      <i class="fa-solid fa-fire banner-icon"></i>
+      <span class="banner-text">🔥 Festival Sale: Up to 50% OFF!</span>
+    </div>
+
+    <!-- Video Block Example -->
+    <section class="video-section">
+      <video autoplay muted loop>
+        <source src="images/mc_promo.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+    </section>
+
+    <!-- Featured Products -->
+    <section class="featured-products">
+      <h2>Featured Products</h2>
+      <div class="product-list">
+        <div class="product-card">
+          <img src="images/sword.png" alt="Diamond Sword">
+          <h3>Diamond Sword</h3>
+          <p>Strong diamond sword for adventures!</p>
+        </div>
+        <div class="product-card">
+          <img src="images/apple.png" alt="Golden Apple">
+          <h3>Golden Apple</h3>
+          <p>Special item for extra health.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits">
+      <h2>Why Choose Us?</h2>
+      <ul>
+        <li><i class="fa-solid fa-truck-fast"></i> Super Fast Delivery</li>
+        <li><i class="fa-brands fa-google-pay"></i> UPI Payment Supported</li>
+        <li><i class="fa-solid fa-shield-halved"></i> Secure & Trusted</li>
+        <li><i class="fa-solid fa-gift"></i> Weekly Offers</li>
+      </ul>
+    </section>
+
+    <!-- Testimonials Slider -->
+    <section class="testimonials">
+      <h2>What Our Customers Say</h2>
+      <div class="testimonial-slider">
+        <div class="testimonial active">
+          <p>"Best Minecraft store ever! Super fast delivery."</p>
+          <span>- AryanGamer</span>
+        </div>
+        <div class="testimonial">
+          <p>"Loved the quality and easy payment via UPI."</p>
+          <span>- SnehaMC</span>
+        </div>
+        <div class="testimonial">
+          <p>"Amazing offers and genuine products!"</p>
+          <span>- RahulPro</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- Animated CTA Section -->
+    <section class="cta-section">
+      <h2 class="cta-text">Ready to level up?</h2>
+      <div id="levelup-counter">0</div>
+      <a class="premium-btn pulse" href="shop.html"><i class="fa-solid fa-arrow-right"></i> Get Started!</a>
+    </section>
+  </main>
+  <footer>
+    <p>&copy; 2025 BreezeMC- Webstore | Your trusted Minecraft shop</p>
+  </footer>
+  <script src="main.js"></script>
+</body>
+</html>
